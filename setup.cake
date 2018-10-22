@@ -10,7 +10,9 @@ BuildParameters.SetParameters(
     repositoryOwner: "DTTerastar",
     repositoryName: "Cake.Exec",
     appVeyorAccountName: "DTTerastar",
-    shouldRunCodecov: false);
+    shouldRunDotNetCorePack: true,
+    shouldRunDupFinder: false,
+    shouldRunInspectCode: false);
 
 BuildParameters.PrintParameters(Context);
 
